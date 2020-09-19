@@ -1,0 +1,20 @@
+{% extends "base.html" %}
+{% block title %}WSAYS - Home{% endblock %}
+{% block head %}
+    {{ super() }}
+    <style type="text/css">
+        .important { color: #336699; }
+    </style>
+{% endblock %}
+{% block content %}
+<div class='card my-3 p-1'>
+  <div class='card-header'>
+    <h1>Whose Sick at Your School</h1>
+  </div>
+  <div class='card-body'>
+    <p class="important">
+      WSAYS is a community ran project to track Covid-19 infections at schools. The data is submitted anonymously by teachers, parents and students. Attempts are made to insure the accuracy of the data. However due to the necessity of anonymous submissions we recommend consulting your local state and county health data trackers as well. 
+    </p>
+  </div>
+</div>
+{% endblock %}
